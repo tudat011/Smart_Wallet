@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#212343"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="410dp"
+        android:layout_height="37dp"
+        android:drawableLeft="@drawable/back"
+        android:fontFamily="@font/kadwa"
+        android:text="Hạn mức chi"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button13"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#83CC73"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+        android:text="Lưu"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <EditText
+        android:id="@+id/textView36"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#5F6FFF"
+        android:clickable="true"
+        android:drawableLeft="@drawable/tenhangmuc"
+        android:inputType="textPersonName"
+        android:text="Tên hạn mức"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:barrierAllowsGoneWidgets="true"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <EditText
+        android:id="@+id/textView37"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#5F6FFF"
+        android:clickable="true"
+        android:drawableLeft="@drawable/menu"
+        android:drawableRight="@drawable/navigate_right"
+        android:inputType="textPersonName"
+        android:text="Tất cả các hạng mục chi"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:barrierAllowsGoneWidgets="true"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <EditText
+        android:id="@+id/textView38"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#5F6FFF"
+        android:clickable="true"
+        android:drawableLeft="@android:drawable/ic_popup_sync"
+        android:drawableRight="@drawable/navigate_right"
+        android:inputType="textPersonName"
+        android:text="Hàng tháng"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:barrierAllowsGoneWidgets="true"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <EditText
+        android:id="@+id/textView39"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#5F6FFF"
+        android:clickable="true"
+        android:drawableLeft="@drawable/calendar"
+        android:drawableRight="@drawable/navigate_right"
+        android:inputType="textPersonName"
+        android:text="Ngày bắt đầu"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:barrierAllowsGoneWidgets="true"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <EditText
+        android:id="@+id/textView40"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#5F6FFF"
+        android:clickable="true"
+        android:drawableLeft="@drawable/calendar"
+        android:drawableRight="@drawable/navigate_right"
+        android:inputType="textPersonName"
+        android:text="Ngày kết thúc"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:barrierAllowsGoneWidgets="true"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="#80FFFFFF"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 VND"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số tiền"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="275dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#212343"
+        android:text="Thêm hạn mức"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        app:icon="@drawable/plus_icon"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="#D9D9D9"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="681dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng quan" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ví" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xx" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Báo cáo thống kê" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khác" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn chưa có hạn mức chi nào"
+        android:textColor="#607746"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#1A72DD"
+        android:text="Dồn sang kỳ sau"
+        android:textColor="#FFFFFF"
+        android:thumbTint="#FFFFFF"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="599dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

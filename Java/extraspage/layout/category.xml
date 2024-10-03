@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#212343"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="410dp"
+        android:layout_height="37dp"
+        android:drawableLeft="@drawable/back"
+        android:drawableRight="@drawable/tick"
+        android:fontFamily="@font/kadwa"
+        android:text="Hạng mục chi"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="#80FFFFFF"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="#80FFFFFF"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="#80FFFFFF"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="#80FFFFFF"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="331dp"
+        android:layout_height="1dp"
+        android:background="#80FFFFFF"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/transport"
+        android:text="Du lịch"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/food"
+        android:text="Thức ăn"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/entertain"
+        android:text="Giải trí"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/personal"
+        android:text="Cá nhân"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/health"
+        android:text="Sức khỏe"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:text="Tìm kiếm theo hạng mục"
+        android:textColor="#607746"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#1A72DD"
+        android:text="Chọn tất cả"
+        android:textColor="#FFFFFF"
+        android:thumbTint="#FFFFFF"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        tools:layout_editor_absoluteX="323dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

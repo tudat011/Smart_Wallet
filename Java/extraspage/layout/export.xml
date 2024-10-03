@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#212343"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="410dp"
+        android:layout_height="37dp"
+        android:drawableLeft="@drawable/back"
+        android:fontFamily="@font/kadwa"
+        android:text="Xuất dữ liệu"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button13"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#83CC73"
+        android:drawableLeft="@drawable/xlsx"
+        android:text="Xuất Excel"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button9"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#83CC73"
+        android:drawableLeft="@drawable/pdf"
+        android:text="Xuất PDF"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/textView38"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#5F6FFF"
+        android:clickable="true"
+        android:drawableLeft="@android:drawable/ic_popup_sync"
+        android:drawableRight="@drawable/navigate_right"
+        android:inputType="textPersonName"
+        android:text="Tháng"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:barrierAllowsGoneWidgets="true"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

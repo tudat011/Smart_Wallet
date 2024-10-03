@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#212343"
+    tools:context=".FirstFragment">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="#D9D9D9"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="67dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ĐANG THEO DÕI" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ĐÃ KẾT THÚC" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="410dp"
+        android:layout_height="37dp"
+        android:drawableLeft="@drawable/back"
+        android:fontFamily="@font/kadwa"
+        android:text="Du lịch"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:text="Tìm kiếm theo tên chuyến đi"
+        android:textColor="#607746"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
